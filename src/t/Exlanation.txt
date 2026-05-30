@@ -1,0 +1,45 @@
+1. Logic
+
+Factorial Program
+The program calculates the factorial of a number by multiplying all integers from 1 to N
+* A variable FACT is initialised to 1
+* A loop runs from 1 to N 
+* Multiple with FACT  
+* If the number is 0, the program directly returns 1 because 0! = 1
+
+Fibonacci Program
+* The Fibonacci sequence starts with 0 and 1
+* Each next number is calculated as:  
+  next = first + second
+* The program prints numbers until the next value becomes greater than 50
+* After printing each number, the values are shifted 
+  `first = second` and `second = next`
+
+
+2. Loops Used
+
+Factorial Program
+* For loop  
+  Used for Array iterations
+* Variables Used
+  int f → stores the number  
+  Int fact  → stores the factorial result  
+  int i → loop counter  
+
+Fibonacci Program
+* while loop  
+  Used because the loop continues to the next Fibonacci number
+* Variables Used
+  int first → first number in sequence  
+  int second → second number  
+  int next → stores the next calculated value
+
+3. Handling of Boundary Conditions
+
+Factorial Program
+* Handles 0! = 1
+
+Fibonacci Program
+* Ensures the sequence stops when the next number becomes >= 50
+* Starts correctly with the first two Fibonacci numbers 0 and 1
+* Prevents printing values beyond the limit
